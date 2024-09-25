@@ -1,5 +1,101 @@
-<html>
-  <body>
-    <h1>Halo Workgjblkgjbld</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suneater Coven - Atmospheric Black Metal</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', monospace;
+            background-color: #000;
+            color: #8a8a8a;
+            line-height: 1.6;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        .container {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            margin-bottom: 10px;
+        }
+        nav {
+            margin-bottom: 40px;
+        }
+        nav a {
+            color: #8a8a8a;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        .content {
+            max-width: 800px;
+            text-align: center;
+        }
+        .band-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 40px;
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
+        }
+        .band-image:hover {
+            opacity: 1;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.8em;
+            opacity: 0.7;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .fade-in {
+            animation: fadeIn 2s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="fade-in">
+            <h1>Suneater Coven</h1>
+            <p>Atmospheric Black Metal</p>
+        </header>
+        <nav class="fade-in">
+            <a href="#home">Home</a>
+            <a href="#music">Music</a>
+            <a href="#shows">Shows</a>
+            <a href="#merch">Merch</a>
+        </nav>
+        <div class="content fade-in">
+            <img src="/api/placeholder/800/400" alt="Suneater Coven Band Photo" class="band-image">
+            <p>Emerging from the shadows of forgotten realms, Suneater Coven weaves tapestries of sound that bridge the mortal world with the ethereal unknown. Our music is a journey through mist-shrouded landscapes and ancient, whispered secrets.</p>
+            <p>New album "Echoes of the Void" available now.</p>
+        </div>
+        <footer class="fade-in">
+            &copy; 2024 Suneater Coven. All rights consumed.
+        </footer>
+    </div>
+</body>
 </html>
